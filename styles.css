@@ -1,0 +1,43 @@
+nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.logo {
+    width: 250px;
+    height: 150px;
+}
+
+.formularios {
+    width: 400px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.formularios>form {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer>input {
+    width: 100%;
+    padding: 7px;
+}
+
+.formContainer>button {
+    background-color: lightgreen;
+    padding: 5px;
+    cursor: pointer;
+}
